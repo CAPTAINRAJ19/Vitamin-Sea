@@ -1,0 +1,116 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    min-height: 100%;
+    background-image: url(Resources/cropped.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    color: rgb(255, 252, 252, 0.5);
+    padding: 18px;
+    
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 35px;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: larger;
+}
+nav a:hover{
+   color: rgb(12, 4, 241);
+  
+}
+.boat{
+    background-color: rgba(84, 84, 79, 0.5);
+}
+hr{
+    margin: 0px;
+    margin-left: 35px;
+    align-items: baseline;
+    width: 350px;
+}
+
+h2{
+    padding-top: 50px;
+    width: 350px;
+    margin: 0px;
+    margin-left: 55px;
+    font-size: 35px;
+    color: white;
+}
+h1{
+    margin: 0px;
+    color: white;
+    height: 230px;
+    font-family: Protest Revolution;
+    font-size: 120px;
+    text-align: center;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+    width: 350px;
+    font-size:20px ;
+    color: white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.new{
+    width: 400px;
+    display: flex;
+    justify-content:baseline;
+}
+h3{
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Protest Revolution;
+    font-size: 55px;
+}
+h4{
+    text-align: center;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+    color: white;
+    width: 190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px ;
+   border-width: 4px;
+    border: solid white;
+}
+.icons{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.fa-brands.fa-instagram.fa-3x{
+    padding-right: 20px;
+    color: rgb(255, 0, 140);
+}
+.fa-brands.fa-linkedin.fa-3x{
+    padding-top: 10px;
+    padding-right: 18px;
+    color: rgb(55, 58, 236);
+}
+.fa-brands.fa-github.fa-3x{
+    color: black;
+    padding-top: 10px;
+    padding-right: 18px;
+}
+.fa-brands.fa-square-x-twitter.fa-3x{
+    padding-top: 10px;
+    padding-right: 18px;
+    color: rgb(4, 4, 4);
+}
+.fa-brands.fa-spotify.fa-3x{
+    padding-top: 10px;
+    padding-right: 18px;
+    color: rgb(16, 200, 16);
+}
